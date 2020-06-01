@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+		 crossorigin="anonymous">
+		 <!-- <link rel="stylesheet" type="text/css" href="no-responsive-css.css"/> -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		 crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		 crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		 crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="kagaro.css" />
+		<script src="kagaro.js" type="text/javascript" charset="utf-8"></script>
+		<title>代叔科技-专注仓配一体化综合物流服务</title>
+	</head>
+	<body>
+		<!-- 导航 -->
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg container">
+				<a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link text-dark" href="kagaro.html">首页</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-dark" href="service.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+							 aria-haspopup="true" aria-expanded="false">
+								商家服务
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">仓储服务</a>
+								<a class="dropdown-item" href="#">配送服务</a>
+								<a class="dropdown-item" href="#">综合物流服务</a>
+								<!-- <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#">Something else here</a> -->
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark" href="storage-online.html">在线看仓</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark" href="solution.html">行业解决方案</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark" href="#">仓配系统</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark" href="case.html">合作案例</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark" href="join-in.html">招商加盟</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+							 aria-haspopup="true" aria-expanded="false">
+								关于我们
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">企业简介</a>
+								<a class="dropdown-item" href="#">新闻中心</a>
+								<a class="dropdown-item" href="#">企业动态</a>
+								<!-- <div class="dropdown-divider"></div>
+						    <a class="dropdown-item" href="#">Something else here</a> -->
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark" href="news.html">新闻中心</a>
+						</li>
+						<li class="nav-item  rounded-pill" id="login">
+							<a class="nav-link text-dark" href="#">登录系统</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- 轮播 -->
+		<div class="banner">
+			<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
+					<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+					<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item">
+						<img src="./img/2.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<div class="inner-content">
+								<p class="inner-title">综合物流服务</p>
+								<p>提供一站式服务</p>
+								<p>自营仓储、自营城市配送、专业管理管理</p>
+								<p>真正降本增效</p>
+								<a href="">查看详情</a>
+							</div>							
+						</div>
+					</div>
+					<div class="carousel-item active">
+						<img src="./img/1.png" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<div class="inner-content">
+								<p class="inner-title">综合物流服务</p>
+								<p>提供一站式服务</p>
+								<p>自营仓储、自营城市配送、专业管理管理</p>
+								<p>真正降本增效</p>
+								<a href="">查看详情</a>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="./img/2.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<div class="inner-content">
+								<p class="inner-title">综合物流服务</p>
+								<p>提供一站式服务</p>
+								<p>自营仓储、自营城市配送、专业管理管理</p>
+								<p>真正降本增效</p>
+								<a href="">查看详情</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<!-- 综合物流服务 -->
+		<div class="container">
+			<div class="zonghe">
+				<div class="kagaro-title">
+					<p>代叔科技 全行业一体化物流解决方案</p>
+				</div>
+				<div class="inline-title">
+					<p>服务优势</p>
+				</div>
+				<div class="row text-center">
+					<div class="col">
+						<svg class="bi bi-receipt-cutoff" width="2.5em" height="2.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" d="M1.92.506a.5.5 0 0 1 .434.14L3 1.293l.646-.647a.5.5 0 0 1 .708 0L5 1.293l.646-.647a.5.5 0 0 1 .708 0L7 1.293l.646-.647a.5.5 0 0 1 .708 0L9 1.293l.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .801.13l.5 1A.5.5 0 0 1 15 2v13h-1V2.118l-.137-.274-.51.51a.5.5 0 0 1-.707 0L12 1.707l-.646.647a.5.5 0 0 1-.708 0L10 1.707l-.646.647a.5.5 0 0 1-.708 0L8 1.707l-.646.647a.5.5 0 0 1-.708 0L6 1.707l-.646.647a.5.5 0 0 1-.708 0L4 1.707l-.646.647a.5.5 0 0 1-.708 0l-.509-.51L2 2.118V15H1V2a.5.5 0 0 1 .053-.224l.5-1a.5.5 0 0 1 .367-.27zM0 15.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z" />
+							<path fill-rule="evenodd" d="M3 4.5a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm8-8a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z" />
+						</svg>
+						<div class="mt-3">
+							<p class="font-weight-bolder">自营智能仓储体系</p>
+							<p class="text-black-50">专业化操作，体系化管理仓储成本直降33%</p>
+						</div>
+					</div>
+					<div class="col">
+						<svg class="bi bi-truck" width="2.5em" height="2.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5v7h-1v-7a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5v1A1.5 1.5 0 0 1 0 10.5v-7zM4.5 11h6v1h-6v-1z" />
+							<path fill-rule="evenodd" d="M11 5h2.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5h-1v-1h1a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4.5h-1V5zm-8 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+							<path fill-rule="evenodd" d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+						</svg>
+						<div class="mt-3">
+							<p class="font-weight-bolder">自营城市配送体系</p>
+							<p class="text-black-50">依托智能仓储系统，配送效率最优算法同等车型的配送成本直降100元</p>
+						</div>
+					</div>
+					<div class="col">
+						<svg class="bi bi-sun" width="2.5em" height="2.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path d="M3.5 8a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0z" />
+							<path fill-rule="evenodd" d="M8.202.28a.25.25 0 0 0-.404 0l-.91 1.255a.25.25 0 0 1-.334.067L5.232.79a.25.25 0 0 0-.374.155l-.36 1.508a.25.25 0 0 1-.282.19l-1.532-.245a.25.25 0 0 0-.286.286l.244 1.532a.25.25 0 0 1-.189.282l-1.509.36a.25.25 0 0 0-.154.374l.812 1.322a.25.25 0 0 1-.067.333l-1.256.91a.25.25 0 0 0 0 .405l1.256.91a.25.25 0 0 1 .067.334L.79 10.768a.25.25 0 0 0 .154.374l1.51.36a.25.25 0 0 1 .188.282l-.244 1.532a.25.25 0 0 0 .286.286l1.532-.244a.25.25 0 0 1 .282.189l.36 1.508a.25.25 0 0 0 .374.155l1.322-.812a.25.25 0 0 1 .333.067l.91 1.256a.25.25 0 0 0 .405 0l.91-1.256a.25.25 0 0 1 .334-.067l1.322.812a.25.25 0 0 0 .374-.155l.36-1.508a.25.25 0 0 1 .282-.19l1.532.245a.25.25 0 0 0 .286-.286l-.244-1.532a.25.25 0 0 1 .189-.282l1.508-.36a.25.25 0 0 0 .155-.374l-.812-1.322a.25.25 0 0 1 .067-.333l1.256-.91a.25.25 0 0 0 0-.405l-1.256-.91a.25.25 0 0 1-.067-.334l.812-1.322a.25.25 0 0 0-.155-.374l-1.508-.36a.25.25 0 0 1-.19-.282l.245-1.532a.25.25 0 0 0-.286-.286l-1.532.244a.25.25 0 0 1-.282-.189l-.36-1.508a.25.25 0 0 0-.374-.155l-1.322.812a.25.25 0 0 1-.333-.067L8.203.28zM8 2.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z" />
+						</svg>
+						<div class="mt-3">
+							<p class="font-weight-bolder">专业管理团队</p>
+							<p class="text-black-50">代叔科技配有专业的经验丰富的综合物流服务团队</p>
+						</div>
+					</div>
+					<div class="col">
+						<svg class="bi bi-command" width="2.5em" height="2.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 0 3.5 5H5V3.5a1.5 1.5 0 1 0-3 0zM6 6V3.5A2.5 2.5 0 1 0 3.5 6H6zm8-2.5A1.5 1.5 0 0 1 12.5 5H11V3.5a1.5 1.5 0 0 1 3 0zM10 6V3.5A2.5 2.5 0 1 1 12.5 6H10zm-8 6.5A1.5 1.5 0 0 1 3.5 11H5v1.5a1.5 1.5 0 0 1-3 0zM6 10v2.5A2.5 2.5 0 1 1 3.5 10H6zm8 2.5a1.5 1.5 0 0 0-1.5-1.5H11v1.5a1.5 1.5 0 0 0 3 0zM10 10v2.5a2.5 2.5 0 1 0 2.5-2.5H10z" />
+							<path fill-rule="evenodd" d="M10 6H6v4h4V6zM5 5v6h6V5H5z" />
+						</svg>
+						<div class="mt-3">
+							<p class="font-weight-bolder">智能系统</p>
+							<p class="text-black-50">自研智能仓储管理系统、订单系统及运输系统，实现高效管理，有效降低客户成本</p>
+						</div>
+					</div>
+					<div class="col">
+						<svg class="bi bi-emoji-laughing" width="2.5em" height="2.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+							<path fill-rule="evenodd" d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5z" />
+							<path d="M7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z" />
+						</svg>
+						<div class="mt-3">
+							<p class="font-weight-bolder">专属服务</p>
+							<p class="text-black-50">专属服务，专人精细化跟踪对接，快速反应处理各种事件</p>
+						</div>
+					</div>
+				</div>
+				<!-- 综合服务客户案例 -->
+				<div class="zonghe-anli">
+					<div class="inline-title">
+						<p>代叔科技为他们提供综合物流服务</p>
+					</div>
+					<div class="d-flex flex-row justify-content-center">
+						<div class="pr-10 text-center">
+							<img src="./img/anli.png" alt="">
+							<div class="mt-3">
+								<p class="font-weight-bolder">索芙特</p>
+							</div>
+						</div>
+						<div class="pr-10 text-center">
+							<img src="./img/anli.png" alt="">
+							<div class="mt-3">
+								<p class="font-weight-bolder">索芙特</p>
+							</div>
+						</div>
+						<div class="pr-10 text-center">
+							<img src="./img/anli.png" alt="">
+							<div class="mt-3">
+								<p class="font-weight-bolder">索芙特</p>
+							</div>
+						</div>
+						<div class="pr-10 text-center">
+							<img src="./img/anli.png" alt="">
+							<div class="mt-3">
+								<p class="font-weight-bolder">索芙特</p>
+							</div>
+						</div>
+						<div class="pr-10 text-center">
+							<img src="./img/anli.png" alt="">
+							<div class="mt-3">
+								<p class="font-weight-bolder">索芙特</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="consulation">
+					<button type="button" class="kagaro-btn" data-toggle="modal" data-target="#exampleModal">
+						咨询代叔管家
+					</button>
+					<!-- 咨询弹出框 -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+					 aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">代叔管家联系方式</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									400-888-8888
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="kagaro-title w-25">
+				<p>在线看仓</p>
+			</div>
+			<div class="text-center">
+				<iframe width="710" height="440" frameborder="0" name="ExpoonPanorama" allowfullscreen="true" scrolling="no" src="https://www.expoon.com/e/i5qvzy6in6b/panorama/212277"></iframe>
+			</div>
+			<div class="text-center m-3">
+				<a href="" class="btn border">查看更多仓库内景</a>
+			</div>
+			<div class="solutions">
+				<div class="kagaro-title">
+					<p>代叔已为超过20个行业提供解决方案</p>
+				</div>
+				<div class="d-flex flex-row justify-content-center">
+					<div class="icon">
+						<img src="https://img.yzcdn.cn/intro/index/pc/pc_bg_mapp.png">
+						<div class="d-flex justify-content-center mt-3">
+							红酒行业
+						</div>
+					</div>
+					<div class="icon">
+						<img src="https://img.yzcdn.cn/intro/index/pc/pc_bg_payforreading.png">
+						<div class="d-flex justify-content-center mt-3">
+							生鲜行业
+						</div>
+					</div>
+					<div class="icon">
+						<img src="https://img.yzcdn.cn/intro/index/pc/pc_bg_food.png">
+						<div class="d-flex justify-content-center mt-3">
+							食品行业
+						</div>
+					</div>
+					<div class="icon">
+						<img src="https://img.yzcdn.cn/intro/index/pc/pc_bg_naive.png">
+						<div class="d-flex justify-content-center mt-3">
+							快销品行业
+						</div>
+					</div>
+					<div class="icon">
+						<img src="https://img.yzcdn.cn/intro/index/pc/pc_bg_tickets.png">
+						<div class="d-flex justify-content-center mt-3">
+							美妆行业
+						</div>
+					</div>
+				</div>
+				<div class="d-flex flex-row justify-content-center mt-3">
+					<div class="icon">
+						<img src="https://img.yzcdn.cn/intro/index/pc/pc_bg_mapp.png">
+						<div class="d-flex justify-content-center mt-3">
+							红酒行业
+						</div>
+					</div>
+					<div class="icon">
+						<img src="https://img.yzcdn.cn/intro/index/pc/pc_bg_payforreading.png">
+						<div class="d-flex justify-content-center mt-3">
+							生鲜行业
+						</div>
+					</div>
+					<div class="icon">
+						<img src="https://img.yzcdn.cn/intro/index/pc/pc_bg_food.png">
+						<div class="d-flex justify-content-center mt-3">
+							食品行业
+						</div>
+					</div>
+					<div class="icon">
+						<img src="https://img.yzcdn.cn/intro/index/pc/pc_bg_naive.png">
+						<div class="d-flex justify-content-center mt-3">
+							快销品行业
+						</div>
+					</div>
+					<div class="icon">
+						<img src="https://img.yzcdn.cn/intro/index/pc/pc_bg_tickets.png">
+						<div class="d-flex justify-content-center mt-3">
+							美妆行业
+						</div>
+					</div>
+				</div>
+				<div class="text-center mt-3">
+					<a href="" class="btn border">查看全部</a>
+				</div>
+			</div>
+			<div class="storage">
+				<div class="kagaro-title w-25">
+					<p>代叔仓储服务</p>
+				</div>
+				<div class="row mt-3">
+					<div class="col-6 text-left">
+						<img src="https://img.yzcdn.cn/public_files/2018/05/28/pc_liansuo.png" alt="" class="w-75">
+					</div>
+					<div class="col-6">
+						<div>
+							<p class="mb-1 kagaro-sec-title">公共仓托管</p>
+							<p class="mb-0">首创以托盘为单位的仓储模式，适用“货物少”、“周转快”、“存放时间短”的情况</p>
+							<span class="badge badge-warning">按年租</span>
+							<span class="badge badge-warning">按月租</span>
+							<span class="badge badge-warning">按月日</span>
+						</div>
+						<div class="mt-3 mb-1">
+							<p class="mb-1 kagaro-sec-title">定制仓</p>
+							<p class="mb-0">根据您的需求，提供个性化服务，仓库面积、设备设施、温湿度、管理方式等均可定制</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mt-5">
+					<div class="col-6">
+						<div>
+							<p class="mb-1 kagaro-sec-title">货物库内加工</p>
+							<p class="mb-0">提供货物流通加工增值服务，包括装卸货、上下架、二次包装、撕贴标签、拍照商检、打托缠膜、退货验收、代发物流快递等</p>
+						</div>
+						<div class="mt-3 mb-1">
+							<p class="mb-1 kagaro-sec-title">自研仓库管理系统保障进销存</p>
+							<p class="mb-0">代叔自主研发OMS订单管理系统、WMS仓库管理系统，整合TMS运输管理系统，随时随地管控仓储，处理订单，全程可视化、数据化，配送轨迹可跟踪</p>
+						</div>
+						<button class="kagaro-btn mt-3" data-toggle="modal" data-target="#exampleModal">
+							咨询代叔管家
+						</button>
+					</div>
+					<div class="col-6">
+						<img src="https://img.yzcdn.cn/public_files/2018/02/12/4ec899c8bd9b4b2ae97947007d1eccb8.png" alt="" class="w-75">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="storage-banner container-fluid">
+			<div class="kagaro-title">
+				<p>租仓库、货配送、找代叔</p>
+				<p style="font-size: 20px;">使用代叔仓配，成本直降33%</p>
+			</div>
+			<div class="container" id="storage-banner">
+				<div class="row text-center">
+					<div class="col-2">
+						<img src="img/linghuozuqi.svg">
+						<p class="mb-1 mt-3 font-weight-bolder">租期灵活</p>
+						<p class="text-black-50">日租、月租、年租、按托盘租</p>
+					</div>
+					<div class="col-2">
+						<img src="img/cangkudingzhihua.svg">
+						<p class="mb-1 mt-3 font-weight-bolder">仓库定制化</p>
+						<p class="text-black-50">按需定制，定制属于企业专属仓库</p>
+					</div>
+					<div class="col-2">
+						<img src="img/weizhibianjie.svg">
+						<p class="mb-1 mt-3 font-weight-bolder">位置便捷</p>
+						<p class="text-black-50">仓库靠近物流园、高速/国道</p>
+					</div>
+					<div class="col-2">
+						<img src="img/anquanbaoxian.svg">
+						<p class="mb-1 mt-3 font-weight-bolder">安全保险</p>
+						<p class="text-black-50">独立式仓库，配备视频监控，配备专职管理人员24小时巡逻，消防齐全</p>
+					</div>
+					<div class="col-2">
+						<img src="img/ziyanxitong.svg">
+						<p class="mb-1 mt-3 font-weight-bolder">自研系统</p>
+						<p class="text-black-50">手机即可查看进销存，一键发送订单仓库立即为您处理货物</p>
+					</div>
+					<div class="col-2">
+						<img src="img/fuwuyiduiyi.svg">
+						<p class="mb-1 mt-3 font-weight-bolder">服务一对一</p>
+						<p class="text-black-50">一对一跟踪服务</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 城市配送 -->
+		<div class="container">
+			<div class="kagaro-title">
+				<p>代叔城市配送服务</p>
+			</div>
+			<div class="text-center">
+				<p>城市配送专车服务，自有车辆，运力充足， 为货主提供标准化、高效率的城市物流配送服务</p>
+			</div>
+			<div class="row mt-5">
+				<div class="col-6">
+					<img src="https://img.yzcdn.cn/public_files/2018/02/11/6d246a7ac6abbcee3c39ceb6396f3ec3.png" alt="" class="w-75">
+				</div>
+				<div class="col-6">
+					<div>
+						<p class="mb-1 kagaro-sec-title">巨大运力保障配送需求</p>
+						<p class="mb-0">拥有千辆配送专车，巨大的运力为企业提供多样化的配送需求</p>
+					</div>
+					<div class="mt-3 mb-1">
+						<p class="mb-1 kagaro-sec-title">新能源车辆无运输障碍</p>
+						<p class="mb-0">代叔购入上百辆新能源车辆，一线城市配送不受限</p>
+					</div>
+					<div class="mt-3 mb-1">
+						<p class="mb-1 kagaro-sec-title">多种保险保障货物安全</p>
+						<p class="mb-0">车辆险种齐全，交强险、商业险、货物险，保货物万无一失</p>
+					</div>
+					<div class="mt-3 mb-1">
+						<p class="mb-1 kagaro-sec-title">个性化定制服务</p>
+						<p class="mb-0">可对车辆定制化，满足统一形象、统一管理的需求</p>
+					</div>
+					<button class="kagaro-btn mt-3" data-toggle="modal" data-target="#exampleModal">
+						咨询配送顾问
+					</button>
+				</div>
+			</div>
+		</div>
+		<!-- 城市配送banner -->
+		<div class="container-fluid chengshipeisong-banner mt-5">
+			<div class="kagaro-title">
+				<p class="text-light">代叔城市配送，为解决最后一公里而生</p>
+			</div>
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-2">
+						<img src="img/quanshengpeisong.svg">
+						<p class="mb-1 mt-3 font-weight-bolder">租期灵活</p>
+						<p>日租、月租、年租、按托盘租</p>
+					</div>
+					<div class="col-2">
+						<img src="img/jieshengchengben.svg">
+						<p class="mb-1 mt-3 font-weight-bolder">仓库定制化</p>
+						<p>按需定制，定制属于企业专属仓库</p>
+					</div>
+					<div class="col-2">
+						<img src="img/zhuanyehouqin.svg">
+						<p class="mb-1 mt-3 font-weight-bolder">位置便捷</p>
+						<p>仓库靠近物流园、高速/国道</p>
+					</div>
+					<div class="col-2">
+						<img src="img/anquanbaozhang2.svg">
+						<p class="mb-1 mt-3 font-weight-bolder">安全保险</p>
+						<p>独立式仓库，配备视频监控，配备专职管理人员24小时巡逻，消防齐全</p>
+					</div>
+					<div class="col-2">
+						<img src="img/zengzhifuwu.svg">
+						<p class="mb-1 mt-3 font-weight-bolder">自研系统</p>
+						<p>手机即可查看进销存，一键发送订单仓库立即为您处理货物</p>
+					</div>
+					<div class="col-2">
+						<img src="img/ziyanxitong2.svg">
+						<p class="mb-1 mt-3 font-weight-bolder">服务一对一</p>
+						<p>一对一跟踪服务</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 仓配案例 -->
+		<div class="cp-anli container">
+			<div class="kagaro-title">
+				<p>代叔已为超过59个知名企业提供仓配一体化服务</p>
+			</div>
+			<div>
+				<div class="row">
+					<div class="col-3">
+						<div class="anli-box">
+							<img src="https://img.yzcdn.cn//static/intro/daily_0514/an_unnamed_-1.png" alt="">
+							<span>幸福西饼</span>
+							<p>感谢代叔科技为我们解决了仓配一体化的问题</p>
+							<p class="text-right pr-2">幸福西饼CEOxxx</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="anli-box">
+							<img src="https://img.yzcdn.cn//static/intro/daily_0514/an_unnamed_-1.png" alt="">
+							<span>幸福西饼</span>
+							<p>感谢代叔科技为我们解决了仓配一体化的问题</p>
+							<p class="text-right pr-2">幸福西饼CEOxxx</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="anli-box">
+							<img src="https://img.yzcdn.cn//static/intro/daily_0514/an_unnamed_-1.png" alt="">
+							<span>幸福西饼</span>
+							<p>感谢代叔科技为我们解决了仓配一体化的问题</p>
+							<p class="text-right pr-2">幸福西饼CEOxxx</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="anli-box">
+							<img src="https://img.yzcdn.cn//static/intro/daily_0514/an_unnamed_-1.png" alt="">
+							<span>幸福西饼</span>
+							<p>感谢代叔科技为我们解决了仓配一体化的问题</p>
+							<p class="text-right pr-2">幸福西饼CEOxxx</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-3">
+						<div class="anli-box">
+							<img src="https://img.yzcdn.cn//static/intro/daily_0514/an_unnamed_-1.png" alt="">
+							<span>幸福西饼</span>
+							<p>感谢代叔科技为我们解决了仓配一体化的问题</p>
+							<p class="text-right pr-2">幸福西饼CEOxxx</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="anli-box">
+							<img src="https://img.yzcdn.cn//static/intro/daily_0514/an_unnamed_-1.png" alt="">
+							<span>幸福西饼</span>
+							<p>感谢代叔科技为我们解决了仓配一体化的问题</p>
+							<p class="text-right pr-2">幸福西饼CEOxxx</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="anli-box">
+							<img src="https://img.yzcdn.cn//static/intro/daily_0514/an_unnamed_-1.png" alt="">
+							<span>幸福西饼</span>
+							<p>感谢代叔科技为我们解决了仓配一体化的问题</p>
+							<p class="text-right pr-2">幸福西饼CEOxxx</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="anli-box">
+							<img src="https://img.yzcdn.cn//static/intro/daily_0514/an_unnamed_-1.png" alt="">
+							<span>幸福西饼</span>
+							<p>感谢代叔科技为我们解决了仓配一体化的问题</p>
+							<p class="text-right pr-2">幸福西饼CEOxxx</p>
+						</div>
+					</div>
+					<div class="more-anli mt-4">
+						<a href="" class="btn border">查看更多案例</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container news">
+			<div class="kagaro-title">
+				<p>新闻中心</p>
+			</div>
+			<div class="row">
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+						<img src="http://www.kagaro.com/Public/Home/images/ckwg.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">新闻标题</h5>
+							<p class="card-text text-black-50">代叔科技新闻中心</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+						<img src="http://www.kagaro.com/Public/Home/images/ckwg.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">新闻标题</h5>
+							<p class="card-text text-black-50">代叔科技新闻中心</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+						<img src="http://www.kagaro.com/Public/Home/images/ckwg.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">新闻标题</h5>
+							<p class="card-text text-black-50">代叔科技新闻中心</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="card" style="width: 18rem;">
+						<img src="http://www.kagaro.com/Public/Home/images/ckwg.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">新闻标题</h5>
+							<p class="card-text text-black-50">代叔科技新闻中心</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid slogan">
+			<p>代叔科技，以科技驱动综合物流服务</p>
+		</div>
+		<div class="footer container-fluid">
+			<div class="container">
+				<div class="row footer-top">
+					<div class="col-3 about-us mt-5">
+						<p>关于我们</p>
+						<ul>
+							<li><a href="">企业简介</a></li>
+							<li><a href="">加入我们</a></li>
+							<li><a href="">公司动态</a></li>
+						</ul>
+					</div>
+					<div class="col-3 mt-5 footer-service">
+						<p>代叔服务</p>
+						<ul>
+							<li><a href="">综合物流服务</a></li>
+							<li><a href="">仓储服务</a></li>
+							<li><a href="">城市配送服务</a></li>
+						</ul>
+					</div>
+					<div class="col-3 contact mt-5">
+						<p class="text-light">联系我们</p>
+						<h2>400-888-8888</h2>
+						<p>人工服务时间：周一周六9:00-21:00</p>
+					</div>
+					<div class="col-3 contact mt-5">
+						<p>关注代叔科技</p>
+						<img src="img/qrcode.jpeg" class="footer-qrcode">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col pt-3">
+						<p class="mb-0">广州代叔网络科技有限公司</p>
+						<p class="mt-0">粤备案号xxxx号</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

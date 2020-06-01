@@ -1,0 +1,571 @@
+* {
+	font-size: 14px;
+	color: #23262a;
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	background-color: #f7f8fa;
+}
+
+@media screen and (max-width: 1400px) {
+body, .nav{
+width: 1400px;
+}
+}
+
+.kagaro-color {
+	color: #ff4b00;
+}
+
+li {
+	list-style-type: none;
+}
+
+li a {
+	color: #969799;
+	text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: none;
+	color: #ff4b00;
+}
+
+.nav-item  {
+	height: 100%;
+}
+
+/* 该点击下来为悬停显示 */
+.nav-item>.dropdown-menu {
+	transition: all 2s;
+	-webkit-transition: all 2s;
+}
+
+.nav-item:hover>.dropdown-menu {
+	display: block;
+	transform: translateY(-3px);
+	-webkit-transform: translateX(-3px);
+}
+
+/* .dropdown>.dropdown-toggle:active {
+	pointer-events: all;
+} */
+
+
+.dropdown>.dropdown-menu>.dropdown-item:hover {
+	background-color: #ff4b00;
+	color: white;
+
+}
+
+/* 强制更改nav-item的子元素hover变色 */
+.nav-item>a:hover {
+	color: #ff4b00 !important;
+}
+
+.bg-light {
+	background-color: white !important;
+}
+
+#login {
+	background-color: #FFC300;
+	margin-left: 90px;
+}
+
+/* .carousel-item {
+	height: 420px;
+}
+ */
+.carousel-inner {
+	height: 420px;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 20%;
+	text-align: start;
+	width: 100%;
+	display: inline;
+}
+
+.inner-content>p[class=inner-title] {
+	font-size: 28px;
+	line-height: 28px;
+	font-weight: 700;
+	color: white;
+}
+
+.inner-content p {
+	color: white;
+}
+
+/* 提升轮播图前后图层 */
+.carousel-control-prev,.carousel-control-next {
+	z-index: 1000;
+}
+
+.kagaro-title {
+	margin: 50px auto 30px;
+	text-align: center;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.kagaro-title>p {
+	font-size: 28px;
+	line-height: 40px;
+}
+
+.inline-title>p {
+	font-size: 16px;
+	color: #ff4b00;
+	text-align: center;
+	padding: 15px;
+}
+
+.kagaro-sec-title {
+	font-size: 18px;
+	font-weight: 700;
+	color: #333;
+}
+.kagaro-sec-title+p {
+	color: #999;
+}
+
+.kagaro-btn {
+	height: 42px;
+	width: 142px;
+	background-color: #ffc107;
+	border-radius: 5px;
+	line-height: 42px;
+	border: none;
+}
+
+.pr-10 {
+	/* padding: 2% 0.5%; */
+	margin: 0 auto;
+}
+
+/* 重设模态框出现的位置 */
+.modal-dialog {
+	margin-top: 20%;
+}
+
+/* 设置咨询按钮居中 */
+.consulation {
+	text-align: center;
+	margin: 30px auto;	
+}
+.icon {
+	border: #eee 1px solid;
+	width:187px;
+	height: 182px;
+	margin: 0 auto;
+	text-align: center;
+	transition: all .3s ease;
+	border-radius: 3px;
+}
+
+.icon>img {
+	width: 100%;
+}
+.icon:hover {
+	border: #FF4B00 1px solid;
+	transform: translateY(-3px);
+	cursor: pointer;
+}
+
+
+.storage-banner {
+	background-image: url(https://img.yzcdn.cn/static/intro/index0310/2280.png);
+	background-repeat: no-repeat;
+	padding: 30px 0;
+	background-size: cover;
+	background-position: 50%;
+	width: atuo;
+	height: 400px;
+}
+.storage-banner img, .chengshipeisong-banner img {
+	width: 60px;
+	height: auto;
+}
+
+#storage-banner {
+	padding-top: 50px;
+}
+
+/* #storage-banner p {	
+	margin-bottom: 2px;
+}
+ */
+.chengshipeisong-banner {
+	background-image: url(https://img.yzcdn.cn/static/intro/img/newIndex/footerbg.png);
+	background-repeat: no-repeat;
+	padding: 5px 0;
+	background-size: cover;
+	background-position: 50%;
+	width: atuo;
+	height: 320px;
+}
+
+.chengshipeisong-banner p {
+	color: white;
+}
+
+.anli-box {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	margin-top: 20px;
+	width: 250px;
+	height: 150px;
+	border: #eee 1px solid;
+	transition: all .5s ease;
+	border-radius: 3px;
+}
+.anli-box:hover {
+	box-shadow: 0 2px 4px 6px rgb(213, 221, 237);
+	transform: translateY(-5px);
+	cursor: pointer;
+}
+
+.more-anli {
+	margin: 0 auto;
+}
+
+.slogan {
+	background-color: #f5f5f5;
+	width: auto;
+	height: 123px;
+	text-align: center;
+	padding-top: 40px;
+	margin-top: 120px;
+}
+.slogan p {
+	font-size: 2.5rem;
+	color: #ff4b00;
+}
+.footer {
+	background: #3a4046;
+	width: 100%;
+	height: 300px;
+}
+
+.footer p {
+	color: #969799;;
+}
+
+.footer-qrcode {
+	width: 90px;
+}
+
+.contact p, h2 {
+	color: white;
+}
+
+.about-us ,.footer-service {
+	
+}
+
+.footer-top {
+	border-bottom: #505050 1px solid;
+	padding-bottom: 20px;
+}
+
+/* 代叔服务 */
+
+/* 为何这里会产生padding?? */
+#container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+.service-banner {
+	background: url(./img/service-banner.png) no-repeat;
+	/* height: 100%; */
+	background-size: 100% 370px;
+	height: 370px;
+}
+
+.service-banner h2 {
+	color: #23262A;
+	padding-top: 100px;
+	color: white;
+}
+
+.service-banner p {
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.service-content {
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.left-top {
+	background: #ff4b00;
+	padding-left: 10px;
+	height: 60px;
+}
+
+.left-top>p {
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-size: 18px;
+}
+
+.left-bottom {
+	background: #3a4046;
+}
+
+.left-bottom ul>li {
+	padding-top: 5px;
+}
+
+.left-bottom ul>li:first-child {
+	padding-top: 15px;
+}
+
+.left-bottom ul>li:last-child {
+		padding-bottom: 40px;
+} 
+
+.left-bottom>ul>li>a {
+	color: white;
+	display: block;
+	padding-left: 15px;
+	height: 30px;
+	line-height: 30px;
+}
+
+/* .left-bottom>ul>li:active {
+	border-left: #FF4B00 5px solid;
+} */
+
+.left-bottom>ul>li>a:hover {
+	background: #FF4B00;
+}
+
+.service-nav {
+	margin-bottom: 20px;
+}
+
+.service-nav a {
+	color: #969799;
+}
+
+/* 在线看仓 */
+.storage-onlie-banner {
+	background: url(./img/storage-online.png) no-repeat;
+	/* height: 100%; */
+	background-size: 100% 370px;
+	height: 370px;
+}
+
+.storage-onlie-banner h2 {
+	color: #23262A;
+	padding-top: 100px;
+	color: white;
+}
+
+.storage-onlie-banner p {
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.vr-online {
+	height: auto;	
+}
+
+.vr-online iframe {
+	box-shadow: 2px 2px 4px #999999;
+	border-radius: 5px;
+}
+
+#storage-onlie-sm-title {
+	font-size: 14px;
+	color: #969799;
+}
+
+/* 行业解决方案 */
+
+.solution-content {
+	background-color: #fff;
+	height: 272px;
+	border: #eee 1px solid 0.8;
+	border-radius: 5px;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.solution-content:hover {
+	box-shadow: 0 8px 30px 0 rgba(0,0,0,.08);
+	transform: translateY(-10px);
+}
+
+.solution-content img {
+	width: 100%;
+}
+
+.solution-content p {
+	color: #999;
+}
+
+.case-content {
+	background-color: #fff;
+	height: 272px;
+	border: #eee 1px solid 0.8;
+	border-radius: 5px;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.case-content:hover {
+	box-shadow: 0 8px 30px 0 rgba(0,0,0,.08);
+	transform: translateY(-10px);
+}
+
+.case-content img {
+	width: 100%;
+}
+
+/* 招商加盟 */
+.join-in-banner {
+	background: url(./img/join-in.png) no-repeat;
+	/* height: 100%; */
+	background-size: 100% 370px;
+	height: 370px;
+}
+
+.join-in-banner h2 {
+	color: #23262A;
+	padding-top: 100px;
+	color: white;
+}
+
+.join-in-banner p {
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.join-in-banner a {
+	width: 150px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	background-color: #155bd4;
+	color: white;
+	line-height: 40px;
+	border-radius: 5px;
+	margin-top: 15px;
+	text-decoration: none;	
+}
+
+.join-in-pic {
+	height: 300px;
+}
+
+.join-in-support img {
+	border: #155bd4 1px solid ;
+	border-radius: 50%;
+	width: 72px;
+}
+
+.join-in-btn {
+	width: 150px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	background-color: #155bd4;
+	color: white;
+	line-height: 40px;
+	border-radius: 5px;
+	margin-top: 15px;
+	text-decoration: none;
+	margin: 30px auto;
+}
+
+.join-in-btn:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.join-in-product {
+	height: 420px;
+	background-color: white;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 8px 30px 0 rgba(0,0,0,.08);
+}
+
+.join-in-product img {
+	width: 72px;
+	margin: 20px auto;
+}
+
+.product-text {
+	padding: 0 20px;
+	color: #969799;
+}
+
+.join-condition-icoin img {
+	width: 32px;
+}
+
+.cooperation img {
+	width: 72px;
+}
+
+.arrow-right img {
+	width: 20px;
+	padding-top: 25%;
+}
+
+/* 加盟申请 */
+.apply-box {
+	margin-top: 50px;
+	width: 100%;
+	height: 800px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.apply-box input {
+	display: block;
+	width: 50%;
+	height: 48px;
+	margin: 20px auto;
+	box-shadow: none;
+	border: 0.03125rem solid #ccc;
+	border-radius: 3px;
+}
+
+.form-control {
+	width: 50%;
+	padding-bottom: 20px;
+	margin: 20px auto;
+	padding: 15px 0;
+	box-shadow: none;
+	border: 0.03125rem solid #ccc;
+	border-radius: 3px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	padding-left: 20px;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+    padding-left: 20px;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    padding-left: 20px;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    padding-left: 20px;
+}
